@@ -22,7 +22,7 @@ body {
 }
 
 .text1 {
-	font-family: Geneva;
+	font-family: Geneva, Arial;
 	color: white;
 	text-align: center;
 }
@@ -31,7 +31,7 @@ nav ul, .logo h1{
 	list-style-type: none;
 	color: white;
 	font-size: 16px;
-	font-family: Geneva;
+	font-family: Geneva, Arial;
 }
 
 .logo h1{
@@ -97,7 +97,7 @@ nav li:hover {
 
 .title-text{
 	font-size: 48px;
-	font-family: Geneva;
+	font-family: Geneva, Arial;
 	font-weight: bolder;
 	margin-bottom: 10px;
 	text-align: center;
@@ -114,7 +114,7 @@ nav li:hover {
 }
 
 .bottom-text {
-	font-family: Geneva;
+	font-family: Geneva, Arial;
 	font-size: 24px;
 	font-weight: 100;
 	margin-bottom: 20px;
@@ -145,7 +145,7 @@ hr.hr1{
 }
 
 .button h1 {
-	font-family: Geneva;
+	font-family: Geneva, Arial;
 	font-size: 18px;
 
 }
@@ -204,7 +204,7 @@ hr.hr1{
 
 .top-text{
 	margin: 0px 0px 15px 0px;
-	font-family: Geneva;
+	font-family: Geneva, Arial;
 	font-weight: bolder;
 	font-size: 12px;
 	text-transform: uppercase;
@@ -281,7 +281,7 @@ hr.hr1{
 	margin: 0;
 	color: white;
 	font-size: 15px;
-	font-family: Geneva;
+	font-family: Geneva, Arial;
 }
 
 .blog-content {
@@ -324,7 +324,7 @@ hr.hr1{
 	margin-top: 60px;
 	margin-bottom: 20px;
 	text-align: center;
-	font-family: Geneva;
+	font-family: Geneva, Arial;
 }
 
 .contact-us {
@@ -334,7 +334,7 @@ hr.hr1{
 }
 
 .contact-txt {
-	font-family: Geneva;
+	font-family: Geneva, Arial;
 	font-size: 14px;
 	margin-bottom: 10px;
 	
