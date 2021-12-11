@@ -1,0 +1,115 @@
+* {
+	margin: 0px;
+	box-sizing: border-box;
+}
+
+:root {
+	--prime-color-1: white;
+}
+
+
+a {
+	text-decoration: none;
+	color: white; 
+}
+
+.left-contain{
+	display: flex;
+}
+
+body {
+	overflow-x: hidden;
+}
+
+.text1 {
+	font-family: Geneva;
+	color: white;
+	text-align: center;
+}
+
+nav ul, .logo h1{
+	list-style-type: none;
+	color: white;
+	font-size: 16px;
+	font-family: Geneva;
+}
+
+.logo h1{
+	font-weight: bolder;
+	font-size: 25px;
+}
+
+.logo {
+	margin-right: 30px;
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 30px 11%;
+	height: 80px;
+	position: fixed;
+	width: 100%;
+	background-color: black;
+}
+
+nav li {
+	display: inline-block;
+	padding: 10px 40px;
+	height: 100%;
+	transition: all .3s linear;
+	border-radius: 7px;
+}
+
+nav li:hover {
+	background-color: white;
+	color: black;
+}
+
+.search img {
+	width:50px; 
+	height: 50px
+
+}
+
+.search img:hover {
+	transform: scale(1.25);
+	transition: all .1s linear;
+}
+
+.panel1-container {
+	background-color: black;
+	color: white;
+	padding-top: 120px;
+	padding-right: 80px;
+	padding-left: 120px;
+	
+	
+}
+.big{
+		font-size: 48px;
+	font-family: Geneva;
+	font-weight: bolder;
+	margin-bottom: 10px;
+	color: white;	
+}
+.title-text{
+
+	font-size: 24px;
+	font-family: Geneva;
+	font-weight: bolder;
+	margin-bottom: 10px;
+	color: white;	
+}
+.paragraph-text{
+	font-size: 16px;
+	font-family: Geneva;
+	color: white;
+}
+hr{
+	border: 2.5px solid black;
+	border-radius: 2.5px;
+	margin-bottom: 15px;
+	background-color: white;
+}
