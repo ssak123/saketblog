@@ -22,7 +22,7 @@ body {
 }
 
 .text1 {
-	font-family: Geneva;
+	font-family: Geneva, Arial;
 	color: white;
 	text-align: center;
 }
@@ -31,7 +31,7 @@ nav ul, .logo h1{
 	list-style-type: none;
 	color: white;
 	font-size: 16px;
-	font-family: Geneva;
+	font-family: Geneva, Arial;
 }
 
 .logo h1{
@@ -89,7 +89,7 @@ nav li:hover {
 }
 .big{
 		font-size: 48px;
-	font-family: Geneva;
+	font-family: Geneva, Arial;
 	font-weight: bolder;
 	margin-bottom: 10px;
 	color: white;	
@@ -97,14 +97,14 @@ nav li:hover {
 .title-text{
 
 	font-size: 24px;
-	font-family: Geneva;
+	font-family: Geneva, Arial;
 	font-weight: bolder;
 	margin-bottom: 10px;
 	color: white;	
 }
 .paragraph-text{
 	font-size: 16px;
-	font-family: Geneva;
+	font-family: Geneva, Arial;
 	color: white;
 }
 hr{
