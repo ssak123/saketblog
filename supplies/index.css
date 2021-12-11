@@ -169,7 +169,7 @@ hr.hr1{
 .grid-container{
 	display: grid;
 	grid-template-rows: 400px;
-	grid-template-columns: 350px 350px 350px;
+	grid-template-columns: 25% 25% 25%;
 	justify-content: space-between;
 	align-content: space-between;
 	margin-top: 30px;
@@ -288,8 +288,8 @@ hr.hr1{
 	padding: 30px 0px 30px;
 	height: 100%;
 	display: grid;
-	grid-template-columns: repeat(3,400px);  /* 3 columns */
-  	grid-template-rows: repeat(3,250px);
+	grid-template-columns: repeat(3,30%);  /* 3 columns */
+  	grid-template-rows: repeat(3,42%);
   	row-gap: 25px; 
 }
 
@@ -339,13 +339,3 @@ hr.hr1{
 	margin-bottom: 10px;
 	
 }
-
-
-
-
-
-
-
-
-
-
