@@ -62,7 +62,8 @@ header {
 	align-items: center;
 	padding: 40px 11%;
 	height: 80px;
-	position: fixed;
+	position: sticky;
+	top: 0;
 	width: 100%;
 	background-color: black;
 }
@@ -92,9 +93,8 @@ nav li:hover {
 }
 
 .panel1-container {
-	height: 900px;
+	height: 100vh;
 	background-color: white;
-	padding-top: 80px;
 	width: 100%;
 }
 
