@@ -1,3 +1,13 @@
+@font-face{
+	font-family: "FuturaPT";
+	src: url('FuturaPT-Book.woff2') format("woff2");	
+}
+
+@font-face{
+	font-family: "FuturaPT-bold";
+	src: url('FuturaPT-Demi.woff2') format("woff2");	
+}
+
 * {
 	margin: 0px;
 	box-sizing: border-box;
@@ -22,7 +32,7 @@ body {
 }
 
 .text1 {
-	font-family: Geneva, Arial;
+	font-family: Geneva, "FuturaPT", Arial;
 	color: white;
 	text-align: center;
 }
@@ -31,7 +41,7 @@ nav ul, .logo h1{
 	list-style-type: none;
 	color: white;
 	font-size: 16px;
-	font-family: Geneva, Arial;
+	font-family: Geneva, "FuturaPT", Arial;
 }
 
 .logo h1{
@@ -89,7 +99,7 @@ nav li:hover {
 }
 .big{
 		font-size: 48px;
-	font-family: Geneva, Arial;
+	font-family: Geneva, "FuturaPT", Arial;
 	font-weight: bolder;
 	margin-bottom: 10px;
 	color: white;	
@@ -97,14 +107,14 @@ nav li:hover {
 .title-text{
 
 	font-size: 24px;
-	font-family: Geneva, Arial;
+	font-family: Geneva, "FuturaPT", Arial;
 	font-weight: bolder;
 	margin-bottom: 10px;
 	color: white;	
 }
 .paragraph-text{
 	font-size: 16px;
-	font-family: Geneva, Arial;
+	font-family: Geneva, "FuturaPT", Arial;
 	color: white;
 }
 hr{
